@@ -1,7 +1,70 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: lightseagreen;
-    text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background-color: white;
+  z-index: 9999999;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* HERO SECTION */
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 8%;
+  height: 80vh;
+  z-index: 383;
+}
+
+/* LEFT TEXT */
+.herotext {
+  width: 45%;
+}
+
+.herotext h1 {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.herotext p {
+  margin-top: 15px;
+  color: gray;
+}
+
+/* RIGHT IMAGE */
+.heroimage {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.heroimage img {
+  width: 100%;
+  max-width: 450px;
+  z-index: 4;
 }
